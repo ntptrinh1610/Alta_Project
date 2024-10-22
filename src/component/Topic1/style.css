@@ -1,0 +1,33 @@
+.main{
+    background-color:blue;
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:15px;
+    overflow: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.item{
+    background-color: aquamarine;
+    margin-left: 10px;
+    height: 30%;
+    width: 30%;
+    aspect-ratio: 1/1;
+    display: flex;
+    padding: 5px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}

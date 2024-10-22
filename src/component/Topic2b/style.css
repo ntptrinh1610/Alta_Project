@@ -1,0 +1,29 @@
+.container2b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item2b{
+    display: flex;
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.buttonStyle{
+    width: 30%;
+    height: 10%;
+    background-color: blue;
+    font-weight: bold;
+    color:white;
+    font-size: 16px;
+}
